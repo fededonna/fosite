@@ -33,9 +33,9 @@ import (
 	"github.com/stretchr/testify/require"
 	goauth "golang.org/x/oauth2"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/compose"
-	"github.com/ory/fosite/handler/oauth2" // "github.com/stretchr/testify/assert"
+	"github.com/fededonna/fosite"
+	"github.com/fededonna/fosite/compose"
+	"github.com/fededonna/fosite/handler/oauth2" // "github.com/stretchr/testify/assert"
 )
 
 func TestAuthorizeCodeFlowWithPublicClientAndPKCE(t *testing.T) {

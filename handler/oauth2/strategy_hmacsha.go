@@ -27,8 +27,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
-	enigma "github.com/ory/fosite/token/hmac"
+	"github.com/fededonna/fosite"
+	enigma "github.com/fededonna/fosite/token/hmac"
 )
 
 type HMACSHAStrategy struct {

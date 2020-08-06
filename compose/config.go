@@ -25,7 +25,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ory/fosite"
+	"github.com/fededonna/fosite"
 )
 
 type Config struct {

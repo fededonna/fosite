@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/ory/fosite/token/jwt"
+	. "github.com/fededonna/fosite/token/jwt"
 )
 
 var idTokenClaims = &IDTokenClaims{

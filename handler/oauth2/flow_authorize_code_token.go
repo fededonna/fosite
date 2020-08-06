@@ -25,11 +25,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ory/fosite/storage"
+	"github.com/fededonna/fosite/storage"
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
+	"github.com/fededonna/fosite"
 )
 
 // HandleTokenEndpointRequest implements

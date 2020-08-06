@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/internal"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fededonna/fosite"
+	"github.com/fededonna/fosite/internal"
+	"github.com/fededonna/fosite/token/jwt"
 )
 
 func TestHandleTokenEndpointRequest(t *testing.T) {

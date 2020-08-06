@@ -29,8 +29,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/storage"
+	"github.com/fededonna/fosite"
+	"github.com/fededonna/fosite/storage"
 )
 
 type RefreshTokenGrantHandler struct {

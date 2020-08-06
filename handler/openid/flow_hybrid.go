@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/handler/oauth2"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fededonna/fosite"
+	"github.com/fededonna/fosite/handler/oauth2"
+	"github.com/fededonna/fosite/token/jwt"
 )
 
 type OpenIDConnectHybridHandler struct {

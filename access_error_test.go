@@ -32,8 +32,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/ory/fosite"
-	. "github.com/ory/fosite/internal"
+	. "github.com/fededonna/fosite"
+	. "github.com/fededonna/fosite/internal"
 )
 
 func TestWriteAccessError(t *testing.T) {
