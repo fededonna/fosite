@@ -26,7 +26,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"regexp"
-
+        "fmt"
 	"github.com/pkg/errors"
 
 	"github.com/ory/fosite"
@@ -206,7 +206,7 @@ func (c *Handler) HandleTokenEndpointRequest(ctx context.Context, request fosite
 		if _, err := hash.Write([]byte(verifier)); err != nil {
 			return errors.WithStack(fosite.ErrServerError.WithDebug(err.Error()))
 		}
-
+                fmt.Printf([SLAS DEBUG] - challenge is: [%s], verifier is: [%s], challenge, base64.RawURLEncoding.EncodeToString(hash.Sum([]byte{})))
 		if base64.RawURLEncoding.EncodeToString(hash.Sum([]byte{})) != challenge {
 			return errors.WithStack(fosite.ErrInvalidGrant.
 				WithHint("The PKCE code challenge did not match the code verifier."))
