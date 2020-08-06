@@ -29,8 +29,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/ory/fosite"
-	. "github.com/ory/fosite/internal"
+	. "github.com/fededonna/fosite"
+	. "github.com/fededonna/fosite/internal"
 )
 
 func TestNewAuthorizeResponse(t *testing.T) {
